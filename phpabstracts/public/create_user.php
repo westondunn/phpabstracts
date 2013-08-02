@@ -30,12 +30,12 @@
             <br />
             
             <form method="post" action="create_user_process.php" class="aform">
-                <label for "login">Login</label><input type="text" id="login" name="login" size="30" /><br />
-                <label for "password">Password</label><input type="text" id="pw" name="pw" size="30" /><br />
-                <label for "name">Name</label><input type="text" id="name" name="name" size="30" /><br />
-                <label for "email">E-mail</label><input type="text" id="email" name="email" size="30" /><br />
-                <label for "role">Role</label><select id="role" name="role"><option>USER</option><option>ADMIN</option></select><br /><br />
-                <label for "submit">&nbsp;</label><input type="submit" value="Create User" name="submit" />
+                <label for = "login">Login</label><input type="text" id="login" name="login" size="30" /><br />
+                <label for = "password">Password</label><input type="text" id="pw" name="pw" size="30" /><br />
+                <label for = "name">Name</label><input type="text" id="name" name="name" size="30" /><br />
+                <label for = "email">E-mail</label><input type="text" id="email" name="email" size="30" /><br />
+                <label for = "role">Role</label><select id="role" name="role"><option>USER</option><option>ADMIN</option></select><br /><br />
+                <label for = "submit">&nbsp;</label><input type="submit" value="Create User" name="submit" />
             </form>
         
         </div>
