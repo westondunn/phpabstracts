@@ -57,20 +57,20 @@
             <form method="post" action="edit_user_process.php" class="aform">
                 <input type="hidden" class="hidden" name="user_id" id="user_id" value="<?php echo $user_id; ?>" />
                 <input type="hidden" class="hidden" name="login" id="login" value="<?php echo $login; ?>" />
-                <label for "login2">Login</label>
+                <label for = "login2">Login</label>
                     <span id="login2"><?php echo $login; ?></span><br />
-                <label for "password">Password</label>
+                <label for = "password">Password</label>
                     <input type="text" id="pw" name="pw" size="30" value="<?php echo $password; ?>" /><br />
-                <label for "name">Name</label>
+                <label for = "name">Name</label>
                     <input type="text" id="name" name="name" size="30" value="<?php echo $name; ?>" /><br />
-                <label for "email">E-mail</label>
+                <label for = "email">E-mail</label>
                     <input type="text" id="email" name="email" size="30" value="<?php echo $email; ?>" /><br />
-                <label for "role">Role</label>
+                <label for = "role">Role</label>
                     <select id="role" name="role">
                     	<option <?php if ($role == "USER") echo "selected"; ?>>USER</option>
                         <option <?php if ($role == "ADMIN") echo "selected"; ?>>ADMIN</option>
                     </select><br /><br />
-                <label for "submit">&nbsp;</label><input type="submit" value="Edit User" name="submit" />
+                <label for = "submit">&nbsp;</label><input type="submit" value="Edit User" name="submit" />
             </form>
         
         </div>

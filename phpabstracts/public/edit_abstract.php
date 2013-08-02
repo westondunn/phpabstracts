@@ -100,40 +100,40 @@
                                 
                                 <p>Enter in format: Family Name, Given Name</p>
                             
-                                    <label for "author1">author1</label>
+                                    <label for = "author1">author1</label>
                                         <input type="text" id="author1" name="author1" size="50" value="<?php echo $author1; ?>" /><br />
                                     
-                                    <label for "organization1">organization1</label>
+                                    <label for = "organization1">organization1</label>
                                         <input type="text" id="organization1" name="organization1" size="50" value="<?php echo $organization1; ?>" /><br />
                                     
-                                    <label for "author2">author2</label>
+                                    <label for = "author2">author2</label>
                                         <input type="text" id="author2" name="author2" size="50" value="<?php echo $author2; ?>" /><br />
                                     
-                                    <label for "organization2">organization2</label>
+                                    <label for = "organization2">organization2</label>
                                         <input type="text" id="organization2" name="organization2" size="50" value="<?php echo $organization2; ?>" /><br />
                                     
-                                    <label for "author3">author3</label>
+                                    <label for = "author3">author3</label>
                                         <input type="text" id="author3" name="author3" size="50" value="<?php echo $author3; ?>" /><br />
                                     
-                                    <label for "organization3">organization3</label>
+                                    <label for = "organization3">organization3</label>
                                         <input type="text" id="organization3" name="organization3" size="50" value="<?php echo $organization3; ?>" /><br />
                                     
-                                    <label for "author4">author4</label>
+                                    <label for = "author4">author4</label>
                                         <input type="text" id="author4" name="author4" size="50" value="<?php echo $author4; ?>" /><br />
                                     
-                                    <label for "organization4">organization4</label>
+                                    <label for = "organization4">organization4</label>
                                         <input type="text" id="organization4" name="organization4" size="50" value="<?php echo $organization4; ?>" /><br />
                                     
-                                    <label for "author5">author5</label>
+                                    <label for = "author5">author5</label>
                                         <input type="text" id="author5" name="author5" size="50" value="<?php echo $author5; ?>" /><br />
                                     
-                                    <label for "organization5">organization5</label>
+                                    <label for = "organization5">organization5</label>
                                         <input type="text" id="organization5" name="organization5" size="50" value="<?php echo $organization5; ?>" /><br />
                                     
-                                    <label for "author6">author6</label>
+                                    <label for = "author6">author6</label>
                                         <input type="text" id="author6" name="author6" size="50" value="<?php echo $author6; ?>" /><br />
                                     
-                                    <label for "organization6">organization6</label>
+                                    <label for = "organization6">organization6</label>
                                         <input type="text" id="organization6" name="organization6" size="50" value="<?php echo $organization6; ?>" /><br />
                                
                                 <br />
@@ -279,7 +279,7 @@
                                         <input type="text" name="fax" id="fax" size="40" value="<?php echo $fax; ?>" />
                                     <br />
 									<label for="address">Mailing Address</label>
-                                        <textarea name="address" id="address" wrap="hard" cols="40" rows="3" /><?php echo $address; ?></textarea>
+                                        <textarea name="address" id="address" wrap="hard" cols="40" rows="3"><?php echo $address; ?></textarea>
                                     <br />
 								
 								<br /><br /><br />

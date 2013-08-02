@@ -65,9 +65,9 @@
             ?>
             <br />
             <form method="post" action="login_process.php" class="aform">
-                <label for "login" style="width:65px;">Login</label>
+                <label for = "login" style="width:65px;">Login</label>
                     <input type="text" id="login" name="login" size="40" /><br />
-                <label for "pw" style="width:65px;">Password</label>
+                <label for = "pw" style="width:65px;">Password</label>
                     <input type="password" id="pw" name="pw" size="40" /><br />
                 <label style="width:65px;">&nbsp;</label>
                     <input type="submit" value="Login" />

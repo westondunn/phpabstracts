@@ -1,21 +1,22 @@
 <?php
-	
-	// Check to see if user is logged in. If not, redirect to login page.
-	if (!isset($_COOKIE["user"])) 
-		header( 'Location: login.php' );
 
-	//Include commonly used variables
-	include('vars.php');
+// Check to see if user is logged in. If not, redirect to login page.
+if (! isset ( $_COOKIE ["user"] ))
+	header ( 'Location: login.php' );
 	
-	//Check to see if admin is logged in
-	$role = $_COOKIE["role"];
-	if ($role == "ADMIN") $admin = "1";
-	
+	// Include commonly used variables
+include ('vars.php');
+
+// Check to see if admin is logged in
+$role = $_COOKIE ["role"];
+if ($role == "ADMIN")
+	$admin = "1";
+
 ?>
 
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 
 <!--
 /************************************************************************
@@ -42,30 +43,35 @@
 -->
 
 <head>
-    <title><?php echo $site_title; ?></title>
-    <link href="css/abstracts.css" rel="stylesheet" type="text/css" />
-    <link href="css/abstracts_print.css" rel="stylesheet" type="text/css" media="print" />
-    <script language="javascript" type="text/javascript" src="js/sorttable.js"></script>
-    <script language="javascript" type="text/javascript" src="js/abstracts.js"></script>
-    <script type="text/javascript">
+<title><?php echo $site_title; ?></title>
+<link href="css/abstracts.css" rel="stylesheet" type="text/css" />
+<link href="css/abstracts_print.css" rel="stylesheet" type="text/css"
+	media="print" />
+<script type="text/javascript"
+	src="js/sorttable.js"></script>
+<script type="text/javascript"
+	src="js/abstracts.js"></script>
+<script type="text/javascript">
         <?php
-            $current_url = $_SERVER['PHP_SELF'];
-            if (strpos($current_url, "list")) {
-                echo "window.onload=function(){tableruler();} ";
-            }
-        ?>
+								$current_url = $_SERVER ['PHP_SELF'];
+								if (strpos ( $current_url, "list" )) {
+									echo "window.onload=function(){tableruler();} ";
+								}
+								?>
     </script>
 </head>
 
 
 <body>
 
-    <div id="header" class="top_container">
-        <img src="images/logo.gif">
-        <div class="title_header">
-            <h2 style="margin:0px;"><?php echo $site_title; ?></h2>
-            <p>You are logged in as <?php echo($_COOKIE["name"]); ?> | <a href='logout.php'>Logout</a></p>
-        </div>
-    </div>
-    
-    <div class="centering_container" id="main_container" >
+	<div id="header" class="top_container">
+		<img src="images/logo.gif" />
+		<div class="title_header">
+			<h2 style="margin: 0px;"><?php echo $site_title; ?></h2>
+			<p>You are logged in as <?php echo($_COOKIE["name"]); ?> | <a
+					href='logout.php'>Logout</a>
+			</p>
+		</div>
+	</div>
+
+	<div class="centering_container" id="main_container">

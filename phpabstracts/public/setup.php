@@ -91,7 +91,7 @@
 <body>
     
     <div id="header" class="top_container">
-        <img src="images/logo.gif">
+        <img src="images/logo.gif" />
     </div>
     
             
@@ -119,25 +119,25 @@
         
         <form method="post" action="setup.php" class="aform">
         
-            <label for "DBHost">Database Host</label>
+            <label for = "DBHost">Database Host</label>
             	<input type="text" id="DBHost" name="DBHost" size="30" /><br />
-            <label for "DBUser">Database Username</label>
+            <label for = "DBUser">Database Username</label>
             	<input type="text" id="DBUser" name="DBUser" size="30" /><br />
-            <label for "DBPass">Database Password</label>
+            <label for = "DBPass">Database Password</label>
             	<input type="text" id="DBPass" name="DBPass" size="30" /><br />
  
         	<p style="width:420px;">Type in the name of your database (this must already exist).</p>
        
-            <label for "DBName">Database Name</label>
+            <label for = "DBName">Database Name</label>
             	<input type="text" id="DBName" name="DBName" size="30" /><br /> 
                 
        	 	<p style="width:420px;">You must also create an master admin user.<br />Please enter this information below, and save for your records.</p>
        
-            <label for "admin_user">Admin User</label>
+            <label for = "admin_user">Admin User</label>
             	<input type="text" id="admin_user" name="admin_user" size="30" /><br />     
-            <label for "admin_pass">Admin Password</label>
+            <label for = "admin_pass">Admin Password</label>
             	<input type="text" id="admin_pass" name="admin_pass" size="30" /><br />
-            <label for "admin_email">Admin Email</label>
+            <label for = "admin_email">Admin Email</label>
             	<input type="text" id="admin_email" name="admin_email" size="30" /><br />            
        
             <br /><br  />

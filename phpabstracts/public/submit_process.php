@@ -153,7 +153,7 @@
 	<body>
 	
 		<div id="header" class="top_container">
-            <img src="images/logo.gif">
+            <img src="images/logo.gif" />
         </div>
 	
 	

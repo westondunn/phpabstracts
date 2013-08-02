@@ -399,38 +399,38 @@
             
                 <input type="hidden" id="review_id" name="review_id" value="<?php echo($review_id); ?>" />
                 <input type="hidden" id="abstract_id" name="abstract_id" value="<?php echo($abstract_id); ?>" />
-                <p>Relevance: <br />
+                <div>Relevance: <br />
                     <div class="indented">
                         <input type="radio" name="relevance" value="3" />Excellent<br />
                         <input type="radio" name="relevance" value="2" />Good<br />
                         <input type="radio" name="relevance" value="1" />Average<br />
                         <input type="radio" name="relevance" value="0" />Poor<br />
                     </div>
-                </p>
+                </div>
                 <hr />
-                <p>Quality: <br />
+                <div>Quality: <br />
                     <div class="indented">
                         <input type="radio" name="quality" value="3" />Excellent<br />
                         <input type="radio" name="quality" value="2" />Good<br />
                         <input type="radio" name="quality" value="1" />Average<br />
                         <input type="radio" name="quality" value="0" />Poor<br />
                     </div>
-                </p>
+                </div>
                 <hr />    
-                <p>A <strong><?php echo $format?></strong> presentation has been requested. What is your final recommendation?<br />
+                <div>A <strong><?php echo $format?></strong> presentation has been requested. What is your final recommendation?<br />
                     <div class="indented">
                         <input type="radio" name="recommendation" value="Panel" />Accept as Panel<br />
                         <input type="radio" name="recommendation" value="Poster">Accept as Poster<br />
                         <input type="radio" name="recommendation" value="Roundtable">Accept as Roundtable<br />
                         <input type="radio" name="recommendation" value="Reject">Reject<br />
                     </div>
-                </p>
+                </div>
                 <hr />
-                <p>Comments:<br /> 
+                <div>Comments:<br /> 
                     <div class="indented">
                         <textarea cols="18" rows="13" name="comments" id="comments"></textarea>
                     </div>
-                </p>
+                </div>
                 <hr />
                 <p>Optional: The topic of this abstract is <?php echo $topic?>. If you think this is a mistake, 
                 please change it below.</p>

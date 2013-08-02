@@ -5,8 +5,8 @@
 		
 ?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 
 <!--
 /************************************************************************
@@ -36,7 +36,7 @@
 
     <title><?php echo $site_title; ?></title>
     <link href="css/abstracts.css" rel="stylesheet" type="text/css" />
-    <script language="javascript" type="text/javascript" src="js/submit_form.js"></script>
+    <script type="text/javascript" src="js/submit_form.js"></script>
     <script type="text/javascript">
 		//for submit_form.js
 		var countsuffix = "_words";
@@ -50,7 +50,7 @@
 <body>
 
 	 <div id="header" class="top_container">
-        <img src="images/logo.gif">
+        <img src="images/logo.gif" />
     </div>
 
 
@@ -91,7 +91,7 @@
                     <label for="organization1">Organisation</label>
                     <input type="text" name="organization1" id="organization1" size="40" />
                     <br />
-                    <label id="author2add"><a onClick="add_author('author2');" 
+                    <label id="author2add"><a onclick="add_author('author2');" 
                     style="text-decoration:underline;cursor:hand;cursor:pointer;">Add</a></label>
                 </div>   
                 <div id="author2" class="conf_form_author" style="display:none;visibility:hidden;">
@@ -101,7 +101,7 @@
                     <label for="organization2">Organisation</label>
                     <input type="text" name="organization2" id="organization2" size="40" />
                     <br />
-                    <label id="author3add"><a onClick="add_author('author3');" 
+                    <label id="author3add"><a onclick="add_author('author3');" 
                     style="text-decoration:underline;cursor:hand;cursor:pointer;">Add</a></label>
                 </div>  
                 <div id="author3" class="conf_form_author" style="display:none;visibility:hidden;">
@@ -111,7 +111,7 @@
                     <label for="organization3">Organisation</label>
                     <input type="text" name="organization3" id="organization3" size="40" />
                     <br />
-                    <label id="author4add"><a onClick="add_author('author4');" 
+                    <label id="author4add"><a onclick="add_author('author4');" 
                     style="text-decoration:underline;cursor:hand;cursor:pointer;">Add</a></label>
                 </div>  
                 <div id="author4" class="conf_form_author" style="display:none;visibility:hidden;">
@@ -121,7 +121,7 @@
                     <label for="organization4">Organisation</label>
                     <input type="text" name="organization4" id="organization4" size="40" />
                     <br />
-                    <label id="author5add"><a onClick="add_author('author5');" 
+                    <label id="author5add"><a onclick="add_author('author5');" 
                     style="text-decoration:underline;cursor:hand;cursor:pointer;">Add</a></label>
                 </div>  
                 <div id="author5" class="conf_form_author" style="display:none;visibility:hidden;">
@@ -131,7 +131,7 @@
                     <label for="organization5">Organisation</label>
                     <input type="text" name="organization5" id="organization5" size="40" />
                     <br />
-                    <label id="author6add"><a onClick="add_author('author6');" 
+                    <label id="author6add"><a onclick="add_author('author6');" 
                     style="text-decoration:underline;cursor:hand;cursor:pointer;">Add</a></label>
                 </div> 
                 <div id="author6" class="conf_form_author" style="display:none;visibility:hidden;">
@@ -319,7 +319,7 @@
                     <input type="text" name="fax" id="fax" size="40" />
                 <br />
                 <label for="address">Mailing Address</label>
-                    <textarea name="address" id="address" wrap="hard" cols="40" rows="2" /></textarea>
+                    <textarea name="address" id="address" wrap="hard" cols="40" rows="2"></textarea>
                 <br />
             
             <br /><br /><br />
