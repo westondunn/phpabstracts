@@ -41,6 +41,3 @@
 	$findings_words_limit 	= "160";
 	$conclusion_words_limit = "50";
 	$total_words_limit 		= "400";
-	
-
-?>

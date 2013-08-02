@@ -259,4 +259,3 @@
 	
 	//Include footer template
 	include('footer.php');
-?>

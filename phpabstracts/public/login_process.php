@@ -48,6 +48,3 @@
 	else {
 		header( 'Location: login.php?x=error' );
 	}
-
-
-?>

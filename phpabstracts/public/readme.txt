@@ -2,8 +2,10 @@
 *** NOTE: SETUP INSTRUCTIONS CAN BE FOUND BELOW ***
 ===================================================
 
+phpAbstracts v0.4 beta
+Weston Dunn
 
-phpAbstracts v0.3 beta
+Based on phpAbstracts v0.3 beta
 http://www.phpabstracts.com
 
 Copyright (c) 2008 Omar Qazi

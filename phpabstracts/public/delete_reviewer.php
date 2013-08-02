@@ -47,5 +47,3 @@
 	}
 	
 	include('footer.php');
-
-?>

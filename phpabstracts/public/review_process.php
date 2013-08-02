@@ -56,7 +56,4 @@
 		
 			 
 	//Include footer template
-	include('footer.php'); 
-
-
-?>
+	include('footer.php');

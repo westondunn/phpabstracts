@@ -64,5 +64,3 @@
 		
 		//Close database
 		mysql_close();
-	
-?>
